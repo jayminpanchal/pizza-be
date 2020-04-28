@@ -27,7 +27,7 @@ class PizzaSeeder extends Seeder
                     ['size_id' => 1, 'crust_id' => 4, 'price' => 99],
                     ['size_id' => 2, 'crust_id' => 1, 'price' => 199],
                     ['size_id' => 2, 'crust_id' => 2, 'price' => 249],
-                    ['size_id' => 3, 'crust_id' => 3, 'price' => 298]
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 298]
                 ]
             ],
             [
@@ -41,7 +41,105 @@ class PizzaSeeder extends Seeder
                     ['size_id' => 1, 'crust_id' => 4, 'price' => 165],
                     ['size_id' => 2, 'crust_id' => 1, 'price' => 305],
                     ['size_id' => 2, 'crust_id' => 2, 'price' => 355],
-                    ['size_id' => 3, 'crust_id' => 3, 'price' => 404]
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 404]
+                ]
+            ],
+            [
+                'name' => 'Cheese n Tomato',
+                'description' => 'A delectable combination of cheese and juicy tomato',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 165],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 240],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 165],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 305],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 355],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 404]
+                ]
+            ],
+            [
+                'name' => 'Achari Do Pyaza',
+                'description' => 'Tangy & spicy achari flavours on a super cheesy onion pizza- as desi as it gets!',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 165],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 240],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 165],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 305],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 355],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 404]
+                ]
+            ],
+            [
+                'name' => 'Double Cheese Margherita',
+                'description' => 'A classic delight loaded with extra 100% real mozzarella cheese',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 185],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 260],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 185],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 335],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 335],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 434]
+                ]
+            ],
+            [
+                'name' => 'Fresh Veggie',
+                'description' => 'Delectable combination of onion & capsicum, a veggie lovers pick',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 185],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 260],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 185],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 335],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 335],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 434]
+                ]
+            ],
+            [
+                'name' => 'Paneer Makhani',
+                'description' => 'Flavorful twist of spicy makhani sauce topped with paneer & capsicum',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 215],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 290],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 215],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 395],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 445],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 494]
+                ]
+            ],
+            [
+                'name' => 'Paneer Makhani',
+                'description' => 'Flavorful twist of spicy makhani sauce topped with paneer & capsicum',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 215],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 290],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 215],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 395],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 445],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 494]
+                ]
+            ],
+            [
+                'name' => 'Farm House',
+                'description' => 'A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes',
+                'sizes' => [1, 2],
+                'crusts' => [1, 2, 3, 4],
+                'prices' => [
+                    ['size_id' => 1, 'crust_id' => 1, 'price' => 215],
+                    ['size_id' => 1, 'crust_id' => 3, 'price' => 290],
+                    ['size_id' => 1, 'crust_id' => 4, 'price' => 215],
+                    ['size_id' => 2, 'crust_id' => 1, 'price' => 395],
+                    ['size_id' => 2, 'crust_id' => 2, 'price' => 445],
+                    ['size_id' => 2, 'crust_id' => 3, 'price' => 494]
                 ]
             ]
         ];
